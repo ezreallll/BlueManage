@@ -2,9 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/datepicker3.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
+<div class="mainwrap row">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="active"> Dashboard</li>
+        </ol>
+    </div><!--/.row-->
 
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>Dashboard</h2>
+        </div>
+    </div><!--/.row-->
+    <div class="row">
+        <div class="col-md-3 ">
+            <div class="panel panel-blue panel-widget" >
+                <div class="row no-padding">
+                    <div class="col-md-5  widget-left">
+                        <i class="glyphicon glyphicon-shopping-cart glyphicon-l"></i>
+                    </div>
+                    <div class="col-md-7  widget-right">
+                        <div class="large">120</div>
+                        <div class="text-muted">新订单</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="panel panel-blue panel-widget" >
+                <div class="row no-padding">
+                    <div class="col-md-5  widget-left">
+                        <i class="glyphicon glyphicon-comment glyphicon-l"></i>
+                    </div>
+                    <div class="col-sm-7  widget-right">
+                        <div class="large">55</div>
+                        <div class="text-muted">信息</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 ">
+            <div class="panel panel-blue panel-widget" >
+                <div class="row no-padding">
+                    <div class="col-sm-5  widget-left">
+                        <i class="glyphicon glyphicon-user glyphicon-l"></i>
+                    </div>
+                    <div class="col-sm-7  widget-right">
+                        <div class="large">120</div>
+                        <div class="text-muted">新用户</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 ">
+            <div class="panel panel-blue panel-widget" >
+                <div class="row no-padding">
+                    <div class="col-md-5  widget-left">
+                        <i class="glyphicon glyphicon-shopping-cart glyphicon-l"></i>
+                    </div>
+                    <div class="col-md-7  widget-right">
+                        <div class="large">25.2k</div>
+                        <div class="text-muted">浏览记录</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/.row-->
+</div><!-- /.main -->
+
+
+
+<script data-main="js/index" src="lib/require.js"></script>
 </body>
 </html>

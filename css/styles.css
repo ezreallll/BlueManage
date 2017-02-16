@@ -867,3 +867,11 @@ iframe{
 	overflow-x: scroll;
 	border: 0;
 }
+
+.mainwrap{
+	width: 100%;
+	min-height:550px ;
+	padding: 30px;
+	position: absolute;
+	top:0px;
+}
